@@ -2,7 +2,7 @@
 // a string "salario igual a R$ X" e quem X é o quanto ofuncionário ganhou no mês
 
 function salario(qtdHoras, valorHora){
-    salarioMensal = qtdHoras * valorHora
+    let salarioMensal = qtdHoras * valorHora
     console.log(`Salário mensal igual a: ${salarioMensal}`)
 }
 
