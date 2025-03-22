@@ -3,7 +3,15 @@
 
 function salario(qtdHoras, valorHora){
     let salarioMensal = qtdHoras * valorHora
-    console.log(`Salário mensal igual a: ${salarioMensal}`)
+    console.log(`Salário mensal igual a: ${salarioMensal.toFixed(0)}`)
 }
 
-salario(150, 40.5)
+function valorHora(qtdHoras, salarioMensal){
+    let valorHoras = salarioMensal/qtdHoras
+    return valorHoras.toFixed(2)
+}
+
+
+let valorHoraFunc = valorHora(120, 1900)
+
+salario(120, valorHoraFunc)
