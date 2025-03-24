@@ -6,7 +6,7 @@ function mesDoAno(numero){
         console.log('Não existe mês do ano correspondente ao número escolhido, o código só aceita números inteiros de 1 ~ 12')
         return
     } 
-    console.log('basdlfasbldf')
+    //console.log('debug')
     switch (numero) {
         case 1:
             console.log('janeiro')
@@ -48,4 +48,4 @@ function mesDoAno(numero){
 }
 
 
-mesDoAno('adlkjakjlsdf')
+mesDoAno(1)

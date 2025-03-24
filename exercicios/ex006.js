@@ -10,4 +10,4 @@ function inverso(valor){
     }
 }
 
-console.log(inverso("programacao"))
+console.log(inverso(9))
